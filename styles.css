@@ -156,7 +156,7 @@ section{scroll-margin-top:calc(var(--hdr) + 8px)}
 .photo .disc::after{content:"";position:absolute;inset:-14px;border-radius:50%;border:2px dashed var(--ink);opacity:.35;animation:spin 40s linear infinite}
 @keyframes spin{to{rotate:360deg}}
 .photo .me{position:absolute;left:0;right:0;bottom:0;width:100%;z-index:1;filter:drop-shadow(0 18px 24px rgba(28,48,91,.18))}
-.photo .buddy{position:absolute;right:4%;top:14%;width:31%;z-index:0;transform-origin:20% 90%;animation:peek 7s cubic-bezier(.45,0,.3,1) infinite}
+.photo .buddy{position:absolute;left:4%;top:14%;width:31%;z-index:0;transform-origin:20% 90%;animation:peek 7s cubic-bezier(.45,0,.3,1) infinite}
 @keyframes peek{
   0%,100%{transform:translate(-55%,14%) rotate(-14deg)}
   14%{transform:translate(6%,-4%) rotate(10deg)}
